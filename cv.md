@@ -18,7 +18,7 @@ I am goal-oriented person with good sense of humor. Mostly learning on my own an
 
 Graduated from the Institute of Hospitality Management in Prague with a bachelor's degree in Destination Management in Tourism.
 
-### Code
+### Code:
 
 ```document.addEventListener("DOMContentLoaded", function () {
   var searchButton = document.querySelector(".search__btn");
@@ -35,8 +35,14 @@ Graduated from the Institute of Hospitality Management in Prague with a bachelor
 });
 ```
 
-### Language Skills
+### Language Skills:
 
 - Czech - C1
 - English - B1
 - Russian - native
+
+### Keep In Touch:
+
+- Phone: +420 776 713 276
+- Email: wasborn2trip@gmail.com
+- Github: [dtsitovich](https://github.com/dtsitovich/)
