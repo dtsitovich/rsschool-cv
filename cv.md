@@ -34,3 +34,9 @@ Graduated from the Institute of Hospitality Management in Prague with a bachelor
   };
 });
 ```
+
+### Language Skills
+
+- English - B1
+- Czech - C1
+- Russian - native
