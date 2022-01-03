@@ -1,5 +1,3 @@
 # rsschool-cv
 
-CV
-
-[link](https://dtsitovich.github.io/rsschool-cv/cv)
+[CV](https://dtsitovich.github.io/rsschool-cv/cv)

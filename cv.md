@@ -45,4 +45,4 @@ Graduated from the Institute of Hospitality Management in Prague with a bachelor
 
 - Phone: +420 776 713 276
 - Email: wasborn2trip@gmail.
-- Github: [dtsitovich](https://github.com/dtsitovich/))
+- Github: [dtsitovich](https://github.com/dtsitovich/)
