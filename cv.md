@@ -13,3 +13,7 @@ I am goal-oriented person with good sense of humor. Mostly learning on my own an
 - Twitter Bootstrap
 - Wordpress CMS
 - Adobe Photoshop
+
+### Education:
+
+Graduated from the Institute of Hospitality Management in Prague with a bachelor's degree in Destination Management in Tourism.
