@@ -20,7 +20,7 @@ Graduated from the Institute of Hospitality Management in Prague with a bachelor
 
 ### Code:
 
-```document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   var searchButton = document.querySelector(".search__btn");
 
   searchButton.onclick = function () {
@@ -33,7 +33,6 @@ Graduated from the Institute of Hospitality Management in Prague with a bachelor
     }
   };
 });
-```
 
 ### Language Skills:
 
