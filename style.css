@@ -68,17 +68,17 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-.nav-item {
-  padding: 21px 12px;
-  width: 120px;
-}
+
 .nav-item:hover {
   background: url("assets/img/menu-decor.png") no-repeat;
 }
 .nav-item a {
-  padding: 31px 13px;
+  padding: 24px;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
+  width: 121px;
+  height: 74px;
 }
 .nav-item a:hover {
   color: #4275fa;
