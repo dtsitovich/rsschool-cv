@@ -284,6 +284,9 @@ h4 {
   top: 4px;
   font-weight: 600;
 }
+
+/* SKILLS SECTION */
+
 #skills {
   padding: 0 42px;
   margin-bottom: 64px;
@@ -398,4 +401,61 @@ h4 {
   line-height: 16px;
   letter-spacing: 0.06em;
   color: #5f5e79;
+}
+
+/* CODE SECTION */
+
+#code {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.code-example {
+  width: 800px;
+  margin: 32px 0;
+  background-color: #1d1e22;
+  border: 1px solid;
+}
+pre {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+}
+.gold {
+  color: #ddca7e;
+}
+.royal {
+  color: #667597;
+}
+.white {
+  color: #fff;
+}
+.lime {
+  color: #96b38a;
+}
+.blue {
+  color: #809bae;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3951e7;
+  padding: 12px 36px;
+  border: 1px solid #3951e7;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.25));
+}
+.btn:hover {
+  background-color: #3951e7;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 36px;
+  border: 1px solid #3951e7;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.25));
 }

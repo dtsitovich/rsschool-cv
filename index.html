@@ -150,6 +150,33 @@
           </div>
         </div>
       </section>
+      <section id="code">
+        <h3>JavaScript code</h3>
+        <h4>I used in my last project</h4>
+        <div class="code-example">
+          <pre>
+
+            <span class="royal">/* after clicking a loop icon in the header's search bar right of the
+               icon an input field appears for a search query on the website */</span>
+
+
+            <span class="gold">document.</span><span class="royal">addEventListener</span><span class="white">(</span><span class="lime">DOMContentLoaded"</span>, <span class="gold">function</span> <span class="white">() {</span>
+              <span class="gold">var</span> <span class="blue">searchButton</span> <span class="white">=</span> <span class="gold">document</span><span class="white">.</span><span class="royal">querySelector</span><span class="white">(</span><span class="lime">".search__btn"</span><span class="white">);</span>
+            
+              <span class="blue">searchButton</span><span class="white">.</span><span class="royal">onclick</span> <span class="white">=</span> <span class="gold">function</span> <span class="white">() {</span>
+                <span class="gold">var</span> <span class="royal">searchBar</span> <span class="white">=</span> <span class="gold">document</span><span class="white">.</span><span class="royal">querySelector</span><span class="white">(</span><span class="lime">".search__bar"</span><span class="white">);</span>
+            
+                <span class="gold">if</span> <span class="white">(</span><span class="blue">searchBar</span><span class="white">.</span><span class="royal">style</span><span class="white">.</span><span class="royal">display</span> <span class="white">===</span> <span class="lime">"none"</span><span class="white">) {</span>
+                  <span class="blue">searchBar</span><span class="white">.</span><span class="royal">style</span><span class="white">.</span><span class="royal">display</span> <span class="white">=</span> <span class="lime">"flex"</span><span class="white">;
+                }</span> <span class="gold">else</span> <span class="white">{</span>
+                  <span class="blue">searchBar</span><span class="white">.</span><span class="royal">style</span><span class="white">.</span><span class="royal">display</span> <span class="white">=</span> <span class="lime">"none"</span><span class="white">;
+                }
+              };
+            });</span>
+          </pre>
+        </div>
+        <a class="btn" href="https://dtsitovich.github.io/online-store" target="_blank">Take a look</a>
+      </section>
     </main>
     <footer></footer>
   </body>
