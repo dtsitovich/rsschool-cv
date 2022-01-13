@@ -596,7 +596,7 @@ pre {
   color: #fff;
   cursor: pointer;
 }
-.social {
+.social-bar {
   display: flex;
   justify-content: space-evenly;
 }
