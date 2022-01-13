@@ -32,6 +32,7 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  border: 1px solid #ccc;
 }
 h1 {
   font-family: Pacifico;
@@ -84,8 +85,6 @@ h4 {
   display: flex;
   flex-direction: column;
   padding: 42px 84px;
-  min-height: 696px;
-  width: 100%;
   background: url("assets/svg/header-bg.svg") no-repeat;
 }
 .header-top {
@@ -96,7 +95,7 @@ h4 {
 /* NAVIGATION */
 
 .nav-list {
-  height: 74px;
+  min-height: 74px;
   display: flex;
   list-style-type: none;
   font-family: Poppins;
@@ -125,17 +124,19 @@ h4 {
 /* HEADER CONTENT */
 
 .header-content {
-  height: 540px;
+  min-height: 540px;
   display: flex;
   justify-content: space-between;
 }
 .description {
-  flex-basis: 496px;
+  flex-basis: 636px;
   align-self: center;
 }
 .profile {
-  flex-basis: 496px;
-  align-self: center;
+  display: flex;
+  flex-basis: 636px;
+  justify-content: center;
+  align-items: center;
 }
 .description-text {
   margin-bottom: 24px;
@@ -190,23 +191,22 @@ h4 {
   flex-direction: column;
 }
 #about {
-  padding-left: 42px;
-  padding-right: 42px;
-  height: 600px;
+  margin-bottom: 64px;
+  padding: 0 48px;
   display: flex;
   justify-content: space-between;
 }
 .decor {
-  width: 50%;
+  flex-basis: 636px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background-image: url(assets/img/coding.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .intro {
-  width: 50%;
+  flex-basis: 636px;
   padding-top: 40px;
   padding-left: 20px;
 }
@@ -236,14 +236,12 @@ h4 {
 }
 .lang {
   width: 100%;
-  height: 0;
   display: flex;
   flex-direction: column;
 }
 .lang h3 {
   align-self: center;
-  padding-top: 18px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 .lang-list {
   display: flex;
@@ -281,14 +279,14 @@ h4 {
   border-radius: 50%;
   position: relative;
   left: 12px;
-  top: 4px;
+  top: 0;
   font-weight: 600;
 }
 
 /* SKILLS SECTION */
 
 #skills {
-  padding: 0 42px;
+  padding: 64px 42px 0;
   margin-bottom: 64px;
   display: flex;
   flex-direction: column;
@@ -301,8 +299,8 @@ h4 {
   flex-wrap: wrap;
 }
 .skill-box-item {
-  width: 367px;
-  height: 296px;
+  flex-basis: 394px;
+  min-height: 296px;
   margin-bottom: 24px;
   display: flex;
   align-items: flex-end;
@@ -482,7 +480,7 @@ pre {
   flex-direction: column;
 }
 .contact-info {
-  padding: 27px 72px;
+  padding: 24px 48px;
   background-color: #384be4;
 }
 .contact-info > h5 {
@@ -618,7 +616,7 @@ pre {
 }
 .footer-bottom div {
   display: flex;
-  flex-basis: 33.33%;
+  flex-basis: 424px;
 }
 .footer-bottom div:nth-of-type(2) {
   justify-content: center;
