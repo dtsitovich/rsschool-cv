@@ -481,6 +481,7 @@ pre {
 }
 .contact-info {
   padding: 24px 48px;
+  justify-content: space-around;
   background-color: #384be4;
 }
 .contact-info > h5 {
@@ -594,6 +595,10 @@ pre {
   background-color: #4275fa;
   color: #fff;
   cursor: pointer;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* FOOTER */
